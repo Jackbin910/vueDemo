@@ -3,7 +3,9 @@ new Vue({
     el:"#vue-app",
     data:{
         name:"yangbin1",
-        job:"开发"
+        job:"开发",
+        website:"http://www.baidu.com",
+        websiteTag:"<a href ='http://www.baidu.com'>thennewstep</a>"
     },
     methods:{
         greet:function (time) {

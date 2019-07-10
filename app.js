@@ -3,7 +3,12 @@ new Vue({
     el:"#vue-app",
     data:{
         name:"yangbin1",
-        
+        job:"开发"
+    },
+    methods:{
+        greet:function (time) {
+            return 'good ' + time + " " + this.name +"!";
+        }
     }
 });
 

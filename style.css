@@ -21,3 +21,11 @@ span{
     content: "length";
     margin-left: 10px;
 }
+
+#bag{
+    width: 200px;
+    height: 500px;
+    margin: 0 auto;
+    background: url("");
+    background-size: 80%;
+}

@@ -2,7 +2,7 @@
 var one = new Vue({
     el: "#vue-app-one",
     data: {
-        title:"app one"
+        title: "app one"
     },
     methods: {},
     computed: {
@@ -16,10 +16,10 @@ var one = new Vue({
 var two = new Vue({
     el: "#vue-app-two",
     data: {
-        title:"app two"
+        title: "app two"
     },
     methods: {
-        changeTitle:function () {
+        changeTitle: function () {
             one.title = "已经改名";
         }
     },
